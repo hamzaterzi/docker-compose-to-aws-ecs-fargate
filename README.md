@@ -1,3 +1,12 @@
+## 🌍 Live Demo
+
+App:
+http://compose-aws-lab-alb-1274013534.eu-central-1.elb.amazonaws.com
+
+Health:
+http://compose-aws-lab-alb-1274013534.eu-central-1.elb.amazonaws.com/health
+
+
 \# 🚀 Docker Compose → AWS ECS Fargate Migration
 
 
@@ -7,7 +16,6 @@ This project demonstrates migrating a containerized Node.js application from a l
 
 
 \---
-
 
 
 \## 🧱 Tech Stack
