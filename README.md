@@ -1,13 +1,13 @@
 ## 🌍 Live Demo
 
-App:
-http://compose-aws-lab-alb-1274013534.eu-central-1.elb.amazonaws.com
+👉 **Application:**  
+http://compose-aws-lab-alb-1274013534.eu-central-1.elb.amazonaws.com  
 
-Health:
+👉 **Health Check:**  
 http://compose-aws-lab-alb-1274013534.eu-central-1.elb.amazonaws.com/health
 
 
-\# 🚀 Docker Compose → AWS ECS Fargate Migration
+\# 🚀 Docker Compose to AWS ECS Fargate Migration (Production-Style Deployment)
 
 
 
@@ -52,36 +52,19 @@ Docker → ECR → ECS Fargate → ALB → Internet
 
 
 
-\## ⚙️ What I Did
+## ⚙️ What I Did
 
-
-
-\- Built a containerized Node.js app
-
-\- Pushed Docker image to Amazon ECR
-
-\- Created AWS infrastructure with Terraform:
-
-&#x20; - VPC
-
-&#x20; - Subnets
-
-&#x20; - ALB
-
-&#x20; - Target Group
-
-&#x20; - ECS Cluster \& Service
-
-\- Deployed app on ECS Fargate
-
-\- Configured health checks
-
-\- Debugged production-like issue (502 Bad Gateway)
-
-
-
-\---
-
+- Containerized a Node.js application using Docker  
+- Migrated the application from Docker Compose to AWS ECS Fargate  
+- Built infrastructure using Terraform:
+  - VPC & public subnets
+  - Application Load Balancer (ALB)
+  - Target Group with health checks
+  - ECS Cluster & Service
+  - IAM execution roles
+- Pushed Docker image to Amazon ECR  
+- Deployed and exposed the service via ALB  
+- Debugged real-world deployment issue (502 Bad Gateway)
 
 
 \## 🐛 Problem \& Fix
