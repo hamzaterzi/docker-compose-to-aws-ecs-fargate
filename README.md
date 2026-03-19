@@ -5,7 +5,9 @@ http://compose-aws-lab-alb-1274013534.eu-central-1.elb.amazonaws.com
 
 👉 **Health Check:**  
 http://compose-aws-lab-alb-1274013534.eu-central-1.elb.amazonaws.com/health
+## 📸 Demo
 
+![App Screenshot](docs/demo.jpg)
 
 \# 🚀 Docker Compose to AWS ECS Fargate Migration (Production-Style Deployment)
 
